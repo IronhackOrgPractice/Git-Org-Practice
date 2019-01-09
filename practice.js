@@ -1,6 +1,3 @@
-// some random oop practice
-
-
 function League(){
   this.teams = [];
   this.nfcSouth = [];
@@ -51,15 +48,13 @@ Patriots.losses = 5;
 
 
 NFL.teams.push(Saints, Patriots);
-
+// NFL.teams.push(Patriots);
+NFL.teams.forEach( bob => console.log(team.teamName))
+//console.log(NFL.teams.teamName);
 NFL.findConference();
 
 
-for(let i = 0; i < 2; i++){
 
-
-  console.log(NFL.teams[i].teamName);
-}
 
 console.log(Saints.record(), Patriots.record());
 
